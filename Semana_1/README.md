@@ -39,7 +39,7 @@ from matplotlib.ticker import MaxNLocator
 Os dados são carregados a partir de um arquivo CSV:
 
 ```python
-df_backup = pd.read_csv("horror-moviest.csv")
+df_backup = pd.read_csv("horror-movies.csv")
 ```
 
 Para evitar alterações no conjunto de dados original, uma cópia é feita:
@@ -55,7 +55,7 @@ A análise inicial inclui a verificação da estrutura dos dados, verificação 
 
 ## Lidando com Erros
 
-Para impasses e correções erros apontadas pelos códigos e aperfeiçoamento da execução foram feitas consultas à documentação do Python, Matplotlb e Seaborn e às IAs Perplexity, GhatGPT.
+Para impasses e correções de erros apontadas pelos códigos e aperfeiçoamento da execução foram feitas consultas à documentação do Python, Matplotlb e Seaborn e às IAs Perplexity e GhatGPT.
 
 ## Contribuições
 Contribuições e sugestões são bem-vindas!
